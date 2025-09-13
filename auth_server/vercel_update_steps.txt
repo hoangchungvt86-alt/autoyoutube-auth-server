@@ -1,0 +1,18 @@
+SAU KHI DEPLOY TEMPLATE VERCEL XONG:
+
+1. Vào Vercel Dashboard → Project "autoyoutube-auth"
+2. Click tab "Settings" → "Environment Variables"
+3. Thêm các biến:
+   - SECRET_KEY = your-secret-key-123
+   - ADMIN_KEY = admin-key-456
+   - GOOGLE_CLIENT_ID = (sẽ setup sau)
+
+4. Click tab "Deployments" 
+5. Click "..." trên deployment mới nhất → "Redeploy"
+
+5. Hoặc update code qua Git:
+   - Clone repo về máy
+   - Thay thế code bằng authentication server
+   - Git push → auto deploy
+
+URL sau khi deploy: https://autoyoutube-auth.vercel.app

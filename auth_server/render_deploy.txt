@@ -1,0 +1,24 @@
+RENDER DEPLOYMENT - CÁCH ĐƠN GIẢN NHẤT
+
+1. Vào: https://render.com
+2. Đăng ký account
+3. Click "New +" > "Web Service"
+4. Chọn "Build and deploy from a Git repository"
+5. Click "Connect GitHub" (hoặc tạo repo mới)
+6. Nếu không muốn dùng GitHub:
+   - Chọn "Deploy without Git"
+   - Upload ZIP file chứa toàn bộ folder auth_server
+
+HOẶC DÙNG TEMPLATE:
+1. Fork repo này: https://github.com/render-examples/flask-hello-world
+2. Replace code bằng code của chúng ta
+3. Deploy tự động
+
+Environment Variables cần thiết:
+- GOOGLE_CLIENT_ID=your-client-id
+- SECRET_KEY=your-secret-key
+- ADMIN_KEY=your-admin-key
+- FIREBASE_CREDENTIALS=your-firebase-json
+
+Sau khi deploy xong sẽ có URL như:
+https://autoyoutube-auth.onrender.com
